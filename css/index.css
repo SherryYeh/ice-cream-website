@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "Ink Free";
+    src: url("fonts/Ink Free.ttf") format("truetype");
+    font-weight: normal;
+	font-style: normal;
+}
+.navbar{
+    width:100%;
+    background-color: rgb(215, 190, 130);
+}
+* {
+	box-sizing: border-box;
+}
+.navbar-brand img{
+    height: 70px;
+}
+@media (min-width: 768px) {
+    /*nav選單*/
+    .navbar{
+        padding-left:80px!important;
+        padding-right:20px!important; 
+    }
+}
+a.nav-link{
+    color: black;
+    font-size: 30px;
+    padding: 0px 5px;
+    margin-right: 10px;
+    
+}
+a.navbar-brand{
+    margin: 0;
+    padding: 0;
+}
+.first{
+    width: 100%;
+}
+.main_border{
+    width:100%;
+}
+.product {
+    background-color: rgb(254, 198, 1);
+	padding-top:50px;
+}
+.product .one {
+    background-color:white;
+	padding: 20px 10px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+.product img {
+	width:100%;
+	margin-bottom:20px;
+}
+
+.product img:hover {
+	opacity: 0.5;
+}
+.product_name {
+    padding: 10px 15px 0px 15px; 
+    font-size: 28px;
+    line-height: 120%;
+    font-family: Ink Free;
+    text-align: center;
+}
+
+.footer{
+    width: 100%;
+    height: 58px;
+    background-color: rgb(145, 0, 20);
+}
+.media{
+    display: flex;
+    margin-left: 50%;
+}
+.twitter , .fb , .instagram{
+    padding: 12px 15px; 
+}
+.twitter img , .fb img , .instagram img{
+    width:35px;
+    height: 33px;
+}
+.fb{
+    margin-left: 10px;
+}
+.instagram{
+    margin-left: 10px;
+}
